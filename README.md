@@ -1,23 +1,9 @@
-Torre de Hanoi - Solución Recursiva en Python
+# Torre de Hanoi - Solución Recursiva con Visualización Gráfica
 
-Descripción
+## Descripción
+Este proyecto implementa una solución recursiva para el puzzle clásico de la **Torre de Hanoi** , **15**, **Cuadrado magico**, **Gato** y **NIM**    en Python. El programa resuelve el puzzle para un número dado de discos (`n`) y muestra gráficamente el estado de las tres varas después de cada movimiento, representándolas como listas (por ejemplo, `[321] [] []`). Además, calcula el número total de movimientos necesarios (`2^n - 1`) y numera cada movimiento para facilitar el seguimiento.
 
-Este repositorio contiene una implementación en Python del clásico rompecabezas de la Torre de Hanoi. El programa resuelve el puzzle de manera recursiva, mostrando el estado de las torres después de cada movimiento en un formato gráfico simple (por ejemplo, [321] [] []). Es una excelente demostración de programación recursiva y visualización de algoritmos.
+El código utiliza una función recursiva para mover los discos entre las varas (fuente, destino y auxiliar), respetando las reglas del puzzle: solo se puede mover un disco a la vez, y un disco grande nunca puede estar sobre uno más pequeño.
 
-El puzzle consiste en mover una pila de discos de diferentes tamaños desde una vara fuente a una vara destino, utilizando una vara auxiliar, respetando las reglas: solo un disco a la vez y nunca un disco mayor sobre uno menor.
-
-Requisitos
-
-
-
-
-
-Python: Versión 3.13.15
-
-
-
-No se requieren librerías adicionales; el código utiliza solo funcionalidades estándar de Python.
-
-Para verificar la versión de Python instalada, ejecuta:
-
-python --version
+## Requisitos
+- **Python**: Versión 3.13.15
