@@ -1,3 +1,4 @@
+#quince
 import random
 
 # Lista de todas las combinaciones ganadoras que suman 15

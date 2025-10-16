@@ -1,3 +1,4 @@
+#NIM
 import random
 
 def formato(x):
